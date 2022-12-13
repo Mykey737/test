@@ -14,13 +14,16 @@ header h2 {
     color: #CEC8FF;
 }
 
-
-h2 {
-    color: #3046C5;
+footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
 }
 
-header h2 {
-    color: #CEC8FF;
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
 }
 
 .row-content {
@@ -29,22 +32,6 @@ header h2 {
     min-height: 200px;
 }
 
-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
-}
-
-.col-content {
-    border: 2px blue solid;
-}
-
 .navbar {
     background-color: #901CAD;
-}
-
-.jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
 }
